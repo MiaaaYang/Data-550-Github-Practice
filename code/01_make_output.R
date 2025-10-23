@@ -35,7 +35,9 @@ saveRDS(
 )
 
 set.seed(5)
+
 random_numbers5 <- rgeom(100, 0.25)
+
 
 saveRDS(
   random_numbers5,
